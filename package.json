@@ -1,0 +1,39 @@
+{
+  "name": "deduplicate-array",
+  "version": "1.0.0",
+  "description": "Returns duplicates-removed array -- has options for case-sensitivity and strict-typing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "unique",
+    "deduplicate",
+    "array",
+    "value",
+    "object",
+    "string",
+    "number",
+    "boolean",
+    "null",
+    "undefined",
+    "case-sensitive",
+    "strict-type"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/grjan7/deduplicate-array#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grjan7/deduplicate-array.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grjan7/deduplicate-array/issues"
+  },
+  "author": "Jana Rangasamy <janagr7@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "array-has-value": "^1.0.0"
+  }
+}
