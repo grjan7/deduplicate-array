@@ -16,10 +16,13 @@ This package removes duplicate values (Type: string | number | boolean | null | 
 
 ### `deduplicateArray(sourceArray, opts)`
 
--**sourceArray** | datatype: array | required
--**opts** | datatype: object | optional
--**opts.caseSensitive** | datatype: boolean | optional | default: true
--**opts.strictType** | datatype: boolean | optional | default: true
+  - **sourceArray** | datatype: array | required
+
+  - **opts** | datatype: object | optional
+
+  - **opts.caseSensitive** | datatype: boolean | optional | default: true
+
+  - **opts.strictType** | datatype: boolean | optional | default: true
 
 #### Example 1: String with no options
 
