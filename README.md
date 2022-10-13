@@ -1,8 +1,12 @@
 # deduplicate-array
 
+[![NPM version](https://img.shields.io/npm/v/deduplicate-array.svg)](https://www.npmjs.com/package/deduplicate-array)
+[![NPM downloads](https://img.shields.io/npm/dm/deduplicate-array.svg)](https://www.npmjs.com/package/deduplicate-array)
+[![Known Vulnerabilities](https://snyk.io/test/github/grjan7/deduplicate-array/badge.svg)](https://snyk.io/test/github/grjan7/deduplicate-array)
+
 ## Description
 
-This package removes duplicate values (Type: string | number | boolean | null | undefined | object | array) from the array (`sourceArray`). This is case-sensitive and strictly typed by default, but can be optimised with `opts`.
+> This package removes duplicate values (Type: string | number | boolean | null | undefined | object | array) from the array (`sourceArray`). This is case-sensitive and strictly typed by default, but can be optimised with `opts`.
 
 ## Install
 
@@ -12,9 +16,9 @@ This package removes duplicate values (Type: string | number | boolean | null | 
 
 ```
 
-## Usage
+### Usage
 
-### `deduplicateArray(sourceArray, opts)`
+#### `deduplicateArray(sourceArray, opts)`
 
   - **sourceArray** | datatype: array | required
 
@@ -24,7 +28,7 @@ This package removes duplicate values (Type: string | number | boolean | null | 
 
   - **opts.strictType** | datatype: boolean | optional | default: true
 
-#### Example 1: String with no options
+##### Example 1: String with no options
 
 ```js
 
@@ -38,7 +42,7 @@ This package removes duplicate values (Type: string | number | boolean | null | 
 
 ```
 
-#### Example 2: String with option | `caseSensitive: false`
+##### Example 2: String with option | `caseSensitive: false`
 
 ```js
 
@@ -53,7 +57,7 @@ This package removes duplicate values (Type: string | number | boolean | null | 
 
 ```
 
-#### Example 3: Number with no options
+##### Example 3: Number with no options
 
 ```js
 
@@ -67,7 +71,7 @@ This package removes duplicate values (Type: string | number | boolean | null | 
 
 ```
 
-#### Example 4: Number with option | `strictType: false`
+##### Example 4: Number with option | `strictType: false`
 
 ```js
 
@@ -82,7 +86,7 @@ This package removes duplicate values (Type: string | number | boolean | null | 
 
 ```
 
-#### Example 5: Object with no options
+##### Example 5: Object with no options
 
 ```js
 
@@ -98,7 +102,7 @@ returns
 [{name: "arun"}, {name: "Arun"}]
 ```
 
-#### Example 6: Object with option | `caseSensitive: false`
+##### Example 6: Object with option | `caseSensitive: false`
 
 ```js
 
@@ -115,7 +119,7 @@ returns
    [{name: "arun"}]
 ```
 
-#### Example 7: Array with no option
+##### Example 7: Array with no option
 
 ```js
 
@@ -132,7 +136,7 @@ returns
    [["arun", "John"], ["Arun", "john"]]
 ```
 
-#### Example 8: Array with option | `caseSensitive: false`
+##### Example 8: Array with option | `caseSensitive: false`
 
 ```js
 
@@ -150,7 +154,7 @@ returns
    [["arun", "John"]]
 ```
 
-#### Example 9: Array with option | `caseSensitive: false`
+##### Example 9: Array with option | `caseSensitive: false`
 
 ```js
 
@@ -168,7 +172,7 @@ returns
    [["arun", "10"], ["Arun", 10]]
 ```
 
-#### Example 10: Array with option | `caseSensitive: false | strictType: false`
+##### Example 10: Array with option | `caseSensitive: false | strictType: false`
 
 ```js
 
@@ -186,7 +190,7 @@ returns
    [["arun", "10"]]
 ```
 
-#### Example 11: Boolean with no option
+##### Example 11: Boolean with no option
 
 ```js
 
@@ -200,7 +204,7 @@ returns
 
 ```
 
-#### Example 12: Null with no option
+##### Example 12: Null with no option
 
 ```js
 
@@ -214,7 +218,7 @@ returns
 
 ```
 
-#### Example 13: Undefined with no option
+##### Example 13: Undefined with no option
 
 ```js
 
